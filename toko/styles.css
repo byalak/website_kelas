@@ -334,3 +334,153 @@ footer p {
     margin: 0;
     font-size: 0.9rem;
 }
+
+
+
+/* Home Section */
+@media screen and (max-width: 768px) {
+  #home {
+      padding: 2rem 1rem;
+      text-align: center;
+  }
+
+  #home h1 {
+      font-size: 1.8rem;
+  }
+
+  #home p {
+      font-size: 1rem;
+  }
+
+  #home .btn-primary {
+      font-size: 1rem;
+      padding: 10px 20px;
+  }
+}
+
+/* Cards Section */
+@media screen and (max-width: 768px) {
+  .card {
+      box-shadow: none;
+      margin-bottom: 1rem;
+  }
+
+  .card img {
+      height: 150px;
+  }
+
+  .card-title {
+      font-size: 1.1rem;
+  }
+
+  .card .btn-outline-primary {
+      font-size: 0.9rem;
+      padding: 5px 15px;
+  }
+}
+
+/* Jadwal Section */
+@media screen and (max-width: 768px) {
+  table {
+      width: 100%;
+      font-size: 12px;
+  }
+
+  thead {
+      font-size: 14px;
+  }
+
+  tbody tr:hover {
+      background-color: #f1f1f1;
+  }
+}
+
+/* Contact Form Section */
+@media screen and (max-width: 768px) {
+  form {
+      width: 100%;
+      padding: 0 10px;
+  }
+
+  .form-group label {
+      font-size: 0.9rem;
+  }
+
+  .form-control {
+      font-size: 0.9rem;
+      padding: 8px;
+  }
+
+  button[type="submit"] {
+      font-size: 0.9rem;
+      padding: 8px 15px;
+  }
+}
+
+/* Footer */
+@media screen and (max-width: 768px) {
+  footer {
+      padding: 10px;
+  }
+
+  footer p {
+      font-size: 0.8rem;
+  }
+}
+
+/* Extra Small Screens */
+@media screen and (max-width: 480px) {
+  body {
+      font-size: 12px;
+  }
+
+  header {
+      padding: 5px 10px;
+  }
+
+  .logo {
+      font-size: 18px;
+  }
+
+  .navbar {
+      gap: 8px;
+  }
+
+  #home h1 {
+      font-size: 1.5rem;
+  }
+
+  #home p {
+      font-size: 0.9rem;
+  }
+
+  #home .btn-primary {
+      font-size: 0.9rem;
+      padding: 8px 15px;
+  }
+
+  .card img {
+      height: 120px;
+  }
+
+  .card-title {
+      font-size: 1rem;
+  }
+
+  table {
+      font-size: 10px;
+  }
+
+  form {
+      padding: 5px;
+  }
+
+  button[type="submit"] {
+      font-size: 0.8rem;
+      padding: 5px 10px;
+  }
+
+  footer p {
+      font-size: 0.7rem;
+  }
+}

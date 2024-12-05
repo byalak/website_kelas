@@ -7,9 +7,9 @@
 
 /* Body */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #ffffff;
-  color: #ffffff;
+  font-family: 'Roboto';
+  color: #333;
+  background-color: #f8f9fa;
   margin: 0;
   padding: 0;
 
